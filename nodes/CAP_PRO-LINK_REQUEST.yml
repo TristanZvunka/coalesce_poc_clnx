@@ -1,0 +1,282 @@
+fileVersion: 1
+id: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+name: LINK_REQUEST
+operation:
+  database: ""
+  deployEnabled: true
+  description: MAJ Hebdo lundi
+  locationName: CAP_PRO
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d1c43fc-b99a-4dd9-a375-172718dd50d9
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_LINK_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6d0ddfe3-c7c5-41bf-b407-f0315ac31377
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(36)
+        defaultValue: ""
+        description: ""
+        name: ID_LINK
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1e3eb0bb-9d6c-4e9b-abf8-c22f1fc630c2
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_PARENT_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d896784-e3a3-46c2-a306-e65983340e94
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_CHILD_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a943ca5d-6b29-4a3e-a785-6b02e4cd4b01
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: DS_LINK_TYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8e2c8b67-1773-488c-9d02-5e22c8c33ba6
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_CHANGED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0fd52ef1-1758-4cd7-8268-160b7fb44ba8
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(8)
+        defaultValue: ""
+        description: ""
+        name: DS_CHANGED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 24725c75-bce2-4255-a6d6-6d6b4fccabe9
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_CREATED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 510b7bb5-974f-4155-b52f-8beed087e893
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(9)
+        defaultValue: ""
+        description: ""
+        name: DS_CREATED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 47f260bd-de6e-4fe5-9fb9-ddbde9e4bdae
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: BOOLEAN
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b84c9860-9ba3-4a24-a2cb-dd181209370b
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_DELETED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2715361-056d-4a89-b4e5-440d50a91858
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: VARCHAR(1)
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b768fb82-8e28-456f-b441-8b5ff625c324
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_EXECUTION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6d98b50a-c174-4225-91d8-833389dc8c54
+          stepCounter: 4bb4ac59-e37e-4365-8e47-36acf48d2083
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: AUDIT_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: LINK_REQUEST
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

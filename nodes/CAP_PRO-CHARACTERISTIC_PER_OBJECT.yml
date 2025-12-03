@@ -1,0 +1,377 @@
+fileVersion: 1
+id: 102edc88-0825-44d3-993b-85cd68cf499e
+name: CHARACTERISTIC_PER_OBJECT
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: CAP_PRO
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec2ae706-810d-42ca-8f19-07a958715e65
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MAJ_DATA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ddde1226-cc71-450e-b73b-bb35e262955b
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_BATCH_IMPORT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ddef3cd6-c74d-4a7c-85a4-368c442dee31
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_EXECUTION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 179b0475-4bb6-47cf-aecf-a8933fde81c6
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: AUDIT_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b14d9786-ae25-493d-9e8f-77063cdfb528
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_CHAR_PER_OBJECT_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1fa2c0d-569a-4927-bfae-3a0f77cf0fb6
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_OBJECT_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a79f0592-ceab-45f6-a496-d3db05fbbab6
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: ID_OBJECT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0fa18951-7f41-41df-af73-6c26d86d4dba
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_CHAR_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2836ae9-87b9-468b-b892-fccda04996f8
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ID_CHAR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d91d1ece-d2ef-45f0-be93-8d66599d1a9f
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(30)
+        defaultValue: ""
+        description: ""
+        name: DS_CHAR_NAME
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4d64cb0-85fa-4e02-9564-2ee9b9f9e47f
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(30)
+        defaultValue: ""
+        description: ""
+        name: DS_CHAR_DESCRIPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c4091aba-bc0d-4a1f-a21a-b489b88bd509
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: ID_CHAR_OPTION_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c5fdc38b-53e2-4521-ae93-4d8928f5151c
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(20)
+        defaultValue: ""
+        description: ""
+        name: ID_CHAR_OPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 38d8504d-b32c-42b4-bc13-a14abe56ed42
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(30)
+        defaultValue: ""
+        description: ""
+        name: DS_CHAR_OPTION_DESCRIPTION
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a11499bc-247d-4b66-ab6b-9387f8036a23
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ID_COUNTER_CHAR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e111a7e6-ba3a-4141-8e03-36e5f0b35478
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ID_OBJECT_TYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5272ace1-c6ed-4e8f-a872-c0d02c929a97
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(11)
+        defaultValue: ""
+        description: ""
+        name: DS_OBJECT_TABLE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f501aa63-b8d0-4cbd-92b1-b6fa3e01f606
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: VARCHAR(30)
+        defaultValue: ""
+        description: ""
+        name: DS_VALUE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8aa52fee-826e-4622-80e2-86e6a2d24bb3
+          stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: FT_VALUE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CHARACTERISTIC_PER_OBJECT
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,282 @@
+fileVersion: 1
+id: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+name: LINK_CUSTOMER_PO_R3_SERVICE
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: CAP_PRO
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cfc86dd8-1f39-426d-be83-2e5bfb60e220
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MAJ_DATA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ef2218a-7ffd-467c-b84d-bfbf412147cf
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_BATCH_IMPORT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a910cc7-96b8-47ff-9f18-156a90f243a0
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ID_CUSTOMER_PO_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7f8b7bef-2baf-42bb-860b-46f9bbd2be45
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ID_SERVICE_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 55f38710-df29-453d-b267-4b2eaed6607c
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ID_REQUEST_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f50d58ec-736a-4400-ab27-4048be4f2213
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a24b4fab-4c02-42e7-b173-0e7097d6785e
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_CREATED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c50db414-079b-47e7-ba59-a3025e372f63
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_CREATED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9aa07239-d19a-424e-9bae-738e7e71c3b7
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MODIFIED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 23ba6c4d-4eaa-42b8-8118-231938691167
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_MODIFIED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4a2ab580-3890-4f65-a113-5179df791820
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6d4c50a-8154-4114-9768-5f2d051b9501
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_DELETED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d49e706-0481-4c17-87d6-f1d7d145dabe
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_EXECUTION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1d744971-2ccd-4321-beb4-aeddda656f59
+          stepCounter: 880550f9-6eb9-41a0-bc28-c1cd750e68f6
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: AUDIT_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: LINK_CUSTOMER_PO_R3_SERVICE
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

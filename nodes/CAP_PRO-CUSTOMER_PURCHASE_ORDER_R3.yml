@@ -1,0 +1,491 @@
+fileVersion: 1
+id: 3031bcfd-8c1b-425b-849e-324720d1c673
+name: CUSTOMER_PURCHASE_ORDER_R3
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: CAP_PRO
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2e2c9e5f-6379-4982-b5ec-2d884d31d3fc
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MAJ_DATA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5e131d11-e9b4-44af-b07f-6f0e1fcfe396
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_BATCH_IMPORT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a5b7c3d-0889-4885-837c-274cda3f005f
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(128)
+        defaultValue: ""
+        description: ""
+        name: ID_CUSTOMER_PO_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 79721491-a831-472b-8dd1-58c869689f89
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(40)
+        defaultValue: ""
+        description: ""
+        name: ID_CUSTOMER_PO
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8d618d7f-33f2-478e-818c-7d956fef936a
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ID_SELLER_CELLNEX_COMPANY_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: adeb3c94-6df0-4b51-929c-a6949deb6d35
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: ID_SELLER_CELLNEX_COMPANY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 318bbe10-ed8e-4ee3-8e16-14e00679aa4d
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: ID_BPARTNER_CAP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d034accc-13eb-479e-a896-8aa8fba6a178
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: ID_BPARTNER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63874c3a-139d-4086-8720-672966455345
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(120)
+        defaultValue: ""
+        description: ""
+        name: DS_CUSTOMER_REFERENCE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: db6af330-4ca1-4fb6-b91e-17f665db0125
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(500)
+        defaultValue: ""
+        description: ""
+        name: DS_COMMENTS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5b3b429-44d3-4e90-984c-ef83a7b41b25
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: DT_PURCHASE_ORDER
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fc9444d5-cc1b-4566-9d9d-35b0f51e176e
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(2)
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ba00fbce-a744-4a9a-a740-4c800f08095b
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: DT_CREATED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74ea1111-a846-4dca-a689-e6fcac2863cf
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_CREATED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc29ba1a-99cb-403d-a44f-4f5e51c5a5a7
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MODIFIED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 29564d2a-f9a1-4262-9946-a7bf9e74e915
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_MODIFIED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bbcb56f8-731e-4a0d-b2f4-0886b9f47f3c
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(24)
+        defaultValue: ""
+        description: ""
+        name: DS_DELETED_BY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e779eee4-5e1b-44ab-93f7-6b3d5d10417f
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: DT_DELETED_AT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 801bc7a7-b925-41a1-85fa-127625fc224f
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(6)
+        defaultValue: ""
+        description: ""
+        name: ID_ENTRY_TYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: af70aa73-a015-4ce2-8c83-05f01db48c1c
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DS_ENTRY_TYPE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cd6a69ae-5bbf-4af6-8388-d80ebd3fa125
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(5)
+        defaultValue: ""
+        description: ""
+        name: ID_CURRENCY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65126239-75b7-4584-9e02-40e401967cc9
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: VARCHAR(16777216)
+        defaultValue: ""
+        description: ""
+        name: DS_CURRENCY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7daedf49-168e-4608-9e8b-84bc2e193fb9
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: NUMBER(16,2)
+        defaultValue: ""
+        description: ""
+        name: FT_AMOUNT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4e58af2-7e3f-440c-a51c-7e1d285b2fb0
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: DT_EXECUTION_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2b49f42c-e90e-4301-94a8-d3183b064adf
+          stepCounter: 3031bcfd-8c1b-425b-849e-324720d1c673
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: AUDIT_LOAD_DATE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CUSTOMER_PURCHASE_ORDER_R3
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
