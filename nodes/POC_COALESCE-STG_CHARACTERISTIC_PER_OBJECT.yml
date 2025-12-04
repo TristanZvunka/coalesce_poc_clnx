@@ -156,11 +156,12 @@ operation:
           - columnReferences:
               - columnCounter: d91d1ece-d2ef-45f0-be93-8d66599d1a9f
                 stepCounter: 102edc88-0825-44d3-993b-85cd68cf499e
-            transform: |
+            transform: |-
               CASE 
-                  WHEN "CHARACTERISTIC_PER_OBJECT"."DS_CHAR_NAME" = "PM_SRV_ONE03" THEN "Studies"
-                  WHEN "CHARACTERISTIC_PER_OBJECT"."DS_CHAR_NAME" = "PM_SRV_ONE04" THEN "Works"
+                  WHEN "CHARACTERISTIC_PER_OBJECT"."DS_CHAR_NAME" = 'PM_SRV_ONE03' THEN 'Studies'
+                  WHEN "CHARACTERISTIC_PER_OBJECT"."DS_CHAR_NAME" = 'PM_SRV_ONE04' THEN 'Works'
                   ELSE "CHARACTERISTIC_PER_OBJECT"."DS_CHAR_NAME"
+              END
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 5192f5bf-bbba-4fdc-a956-9b0509b55939

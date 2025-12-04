@@ -1,0 +1,240 @@
+fileVersion: 1
+id: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+name: STG_AGORA_SERVICES
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: POC_COALESCE
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c86f88f6-9b68-4eed-96f6-a4637f7f30c2
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: id_site
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fa6b0ef6-b787-4eb0-a59e-292795109a5d
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 753359f5-5bad-4ba2-a3f9-f72f76731a68
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: id_client
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dc974828-c946-4f5b-aa05-13d94d0bca2c
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 61eb574d-5820-46eb-b914-e22f88db5a8c
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: NUMBER(38,0)
+        description: ""
+        name: id_societe
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: dd87706a-404a-4651-8656-15ca8807791f
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bb7fbc14-a540-47e5-803e-d0a3c7d2cff5
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: status_service
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 55e1c484-3817-46ff-a49c-008b5cf2dc7a
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8ec3c28b-15c7-4bee-a497-bbe90bd5db18
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: id_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e1687d0e-4b44-4eb5-bcb1-c290cf9838d9
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 080d406c-20ff-489b-9757-4b0f4d03c733
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: id_sous_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: db992ebf-6069-4921-9001-77c61ec8b231
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 195f80df-dcbe-44bf-af86-c502cfb07d20
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: DATE
+        description: ""
+        name: date_facturation
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 2865214d-d1ff-488f-9659-6429ca064cbc
+                stepCounter: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6da45f7d-3f90-4018-93f8-8f5fcf52f13b
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(500)
+        description: ""
+        name: commentaire_po
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e6797b0e-cda6-41cc-b4bd-2b54dd796c3e
+                stepCounter: 98cbf579-f698-4461-ac20-c048628c3ec2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 86b969e0-2da9-40cf-bc89-5d7741938bec
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: DATE
+        description: ""
+        name: date_reception_po
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e97f5c4c-16f3-43f8-b699-4b3c1489a89b
+                stepCounter: 98cbf579-f698-4461-ac20-c048628c3ec2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 392eced6-c593-47b2-88b9-a99de0b01f6d
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: NUMBER(16,2)
+        description: ""
+        name: montant_po
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5037cbcf-4dfc-40f3-ae55-588fdeaadc04
+                stepCounter: 98cbf579-f698-4461-ac20-c048628c3ec2
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bdac8d7f-d966-455b-ba04-9d33a33ea12d
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: id_projet
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b2778191-418f-4e24-b0d5-1f8b5f7b5bdd
+                stepCounter: 711c0585-3262-44e1-a6b0-1bcf3677b48a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7ac35128-f053-439d-9883-58c9c256b0e3
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: VARCHAR(2000)
+        description: ""
+        name: id_description_projet
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: be67cdcb-40cd-45e4-887b-0ff8a20fe15c
+                stepCounter: 711c0585-3262-44e1-a6b0-1bcf3677b48a
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a16c3eb5-8780-42ee-b1c6-c18cd3997d9a
+          stepCounter: b9be2c5c-4662-4979-a220-fa45cfe68fd8
+        config: {}
+        dataType: FLOAT
+        description: ""
+        name: montant
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b80024b7-1c2e-448c-bc54-d5b960ca9fc4
+                stepCounter: b2ee19a7-6ecf-44c2-8959-934be8002105
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_CHARACTERISTIC_PER_OBJECT: b2ee19a7-6ecf-44c2-8959-934be8002105
+          STG_CUSTOMER_PURCHASE_ORDER_R3: 98cbf579-f698-4461-ac20-c048628c3ec2
+          STG_LINK_CUSTOMER_PO_R3_SERVICE: 73ad45e6-2f92-4945-936f-6f57023d63d8
+          STG_REQUEST: 711c0585-3262-44e1-a6b0-1bcf3677b48a
+          STG_SERVICE_DETAILS: 38ff4936-1e03-4184-bad8-59aeb0e8c9c2
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: POC_COALESCE
+            nodeName: STG_CHARACTERISTIC_PER_OBJECT
+          - locationName: POC_COALESCE
+            nodeName: STG_CUSTOMER_PURCHASE_ORDER_R3
+          - locationName: POC_COALESCE
+            nodeName: STG_LINK_CUSTOMER_PO_R3_SERVICE
+          - locationName: POC_COALESCE
+            nodeName: STG_REQUEST
+          - locationName: POC_COALESCE
+            nodeName: STG_SERVICE_DETAILS
+        join:
+          joinCondition: |-
+            FROM {{ ref('POC_COALESCE', 'STG_SERVICE_DETAILS') }} "STG_SERVICE_DETAILS"
+            LEFT JOIN {{ ref('POC_COALESCE', 'STG_LINK_CUSTOMER_PO_R3_SERVICE') }} "STG_LINK_CUSTOMER_PO_R3_SERVICE"
+            ON "STG_SERVICE_DETAILS"."key_service" = "STG_LINK_CUSTOMER_PO_R3_SERVICE"."key_service"
+            LEFT JOIN {{ ref('POC_COALESCE', 'STG_CUSTOMER_PURCHASE_ORDER_R3') }} "STG_CUSTOMER_PURCHASE_ORDER_R3"
+            ON "STG_LINK_CUSTOMER_PO_R3_SERVICE"."key_po" = "STG_CUSTOMER_PURCHASE_ORDER_R3"."key_po"
+            LEFT JOIN {{ ref('POC_COALESCE', 'STG_REQUEST') }} "STG_REQUEST"
+            ON "STG_LINK_CUSTOMER_PO_R3_SERVICE"."key_request"  = "STG_REQUEST"."key_request"
+            LEFT JOIN {{ ref('POC_COALESCE', 'STG_CHARACTERISTIC_PER_OBJECT') }} "STG_CHARACTERISTIC_PER_OBJECT"
+            ON "STG_SERVICE_DETAILS"."key_service" = "STG_CHARACTERISTIC_PER_OBJECT"."key_service"
+        name: STG_AGORA_SERVICES
+        noLinkRefs: []
+  name: STG_AGORA_SERVICES
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node
