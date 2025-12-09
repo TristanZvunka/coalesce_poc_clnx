@@ -1,0 +1,493 @@
+fileVersion: 1
+id: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+name: STG_REPORT_PO_CUSTOMER
+operation:
+  config:
+    insertStrategy: INSERT
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: POC_COALESCE
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2ffc29f9-5e1d-4eed-91d6-ef3a409da503
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(64)
+        description: ""
+        name: Parc
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 74f02de0-a03a-44e0-a737-9f47fadcb165
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b2bf451f-e82a-4eac-a964-8932156abc88
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: id_site
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 25d782c0-e670-4148-8467-44cc38644cfb
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c889f78-5885-4d4d-9cd7-827b062ffbdd
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: code_projet
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 28accef4-b3b8-4a70-b0be-9247bcc85ec6
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b6ac5a83-6d18-4e76-8936-983ffc44c67d
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: numero_po_associe
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 75420bd9-1516-4fe3-a3d3-5a3e737eb829
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0fdf579d-e7db-44ae-a08d-68d5ad075d18
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: client
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1992dc0f-a03d-410d-bd1e-1258d5186e08
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 10d85234-8b54-4a0b-aae2-e31b8b39919c
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: DATE
+        description: ""
+        name: date_reception_po
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 45eb920d-de7e-4152-a536-9923d6dc44a5
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d963a52c-7eeb-4752-8c2a-64a4bc5e137e
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: DATE
+        description: ""
+        name: date_facture
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3a6f05cc-0084-414e-a249-52fc77bca5f6
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 830b66c9-408a-43c9-9ac2-13c3f3498e8b
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(100)
+        description: ""
+        name: Montant facturé HT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 28be5966-7df5-4f0a-8363-5d4d4799017f
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b8f83091-15fa-43d8-a15f-db54563f90cb
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: Numéro de facture
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ea3d6a90-bfb2-4e19-9fb7-1bdc25399b77
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: abace700-dbb4-4ff4-9c3f-07136174d0d3
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: Montant commande (num)
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4d5918bc-3e7c-4e5b-a124-0a98a7cba78e
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a96bbd1-53cf-4e3d-9f0e-2f784faca3bb
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: DT_MAJ_DATA
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0951c623-68a0-499a-a4e2-f4e701b0f517
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f1e72456-38b8-4a08-af6e-c54aee14ac72
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: DT_BATCH_IMPORT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f2bcf110-dd67-4068-8b68-4a235db0818a
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 91e409d6-55d6-4853-8653-603373007132
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: Région
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fdca7899-4741-4055-95b7-d53cfe971697
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b0c65908-9d6e-4d29-9d7d-4d65199ff158
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(254)
+        description: ""
+        name: Update for READ ONLY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d6ea32e6-ddce-4d7a-8e39-c3be8be0d5e6
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54b07d0f-5150-40f1-a2aa-660ccaaec42e
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: Right_DT_MAJ_DATA
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: cdd77890-c22e-42dc-8856-006e0f1609a8
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44afc123-1950-4911-ba95-4207f5ff0b0a
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        description: ""
+        name: Right_DT_BATCH_IMPORT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 53682979-42f5-4909-93a5-800cb92ee222
+                stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 54d3dfd9-545e-42b7-9546-27e4c3919f44
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: nom_societe
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: "'On Tower France SAS'"
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc93a893-e413-44e6-a619-ed14a02bca77
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: id_client
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |2-
+                          CASE 
+                              WHEN UPPER("client") LIKE '%FREE%' THEN 'FREE MOBILE'
+                              WHEN UPPER("client") LIKE '%BOUYGUES%' THEN 'BOUYGUES TELECOM'
+                              WHEN UPPER("client") LIKE '%SFR%' THEN 'SFR'
+                              WHEN UPPER("client") LIKE '%ORANGE%' THEN 'ORANGE'
+                              ELSE 'AUTRE'
+                              END
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a9a95fa2-9a7e-42c0-aa6e-7d7e080fa01c
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: statut_service
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |2-
+                          CASE 
+                              WHEN "Etat" LIKE 'Factu%' THEN 'Facturé'
+                              WHEN "Etat" LIKE 'Récep%' THEN 'Créé'
+                              WHEN "Etat" LIKE 'Annul%' THEN 'Annulé'
+                              WHEN "Etat" LIKE 'Non factura%' THEN 'Non facturable'
+                              WHEN "Etat" LIKE 'Rejeté%' THEN 'Rejeté'
+                              WHEN "Etat" IS NULL THEN NULL
+                              ELSE "Etat"
+                          END
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ce91337e-3157-43e5-9cd9-f3f44b4222a7
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: montant_po_associe
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CAST(REPLACE("Montant commande HT",',','.') AS FLOAT)
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 764dba56-bd65-4ceb-a561-d794fbd05083
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(6000)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: commentaire_commande
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CAST("Commentaire commande" AS STRING)
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ccec66fb-2f04-4b01-9c14-0d59cfdf2363
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: montant_facture
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CAST(REPLACE("Montant facturé HT",',','.') AS FLOAT)
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b5c2df8f-cc36-42ee-baea-66e59da4050e
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR(60)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |2-
+                              CASE 
+                                  WHEN "Type commande" LIKE '%Études%' THEN 'Studies'
+                                  WHEN "Type commande" LIKE '%Travaux%' THEN 'Works'
+                                  WHEN "Type commande" LIKE '%CSPS%' THEN 'Health & Safety'
+                              END 
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: efe21e3b-be1a-492c-bf2f-7673623e2e6e
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: VARCHAR (60)
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: sous_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CAST("Type commande" AS VARCHAR)
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eca5fe3f-6c44-40ad-b624-e6006f141a3f
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: montant_capex_studies
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |2-
+               CASE
+                                  WHEN "type" = 'Studies' THEN "montant_po_associe"
+                                  ELSE 0 -- ou NULL si tu préfères
+                              END
+        systemColumnType: None
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3184452b-a8ae-47f2-94ff-5c26ad17a9d3
+          stepCounter: bc24d95c-dee1-43af-a920-d6bca4bc2e45
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        keyColumnType: None
+        name: montant_capex_works
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: |-
+              CASE
+                                  WHEN "type" = 'Works' THEN "montant_po_associe"
+                                  ELSE 0 -- ou NULL si tu préfères
+                              END
+        systemColumnType: None
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          REPORT_PO_CUSTOMER: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: FR_DATAWAREHOUSE_COS
+            nodeName: REPORT_PO_CUSTOMER
+        join:
+          joinCondition: FROM {{ ref('FR_DATAWAREHOUSE_COS', 'REPORT_PO_CUSTOMER') }} "REPORT_PO_CUSTOMER"
+        name: STG_REPORT_PO_CUSTOMER
+        noLinkRefs: []
+  name: STG_REPORT_PO_CUSTOMER
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node

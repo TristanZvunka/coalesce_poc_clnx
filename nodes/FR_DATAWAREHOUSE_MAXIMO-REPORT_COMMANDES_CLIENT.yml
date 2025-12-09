@@ -1,0 +1,567 @@
+fileVersion: 1
+id: eef90c3c-2933-40d5-a280-66a9a790af9a
+name: REPORT_COMMANDES_CLIENT
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: FR_DATAWAREHOUSE_MAXIMO
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 11c0e0d5-74c5-40dd-8ad8-c3fe56a23b04
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date extraction
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 04e93ddc-d02a-4e63-a9dc-d7141b352c1f
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: ID EB
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f98735c2-18dd-427a-8f9d-2ab60773cf7f
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: ID Commande (PO)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6053e4d-3357-4ab9-b655-ef68170f69aa
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type de commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f9780c5-12d7-4243-aa9b-8b6e8fe06c53
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: Montant commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c03c600a-611e-49d9-ae2c-2418bc740b39
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 83d59db1-a59f-4dd4-80a8-f704477730ec
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Statut commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0addb353-1af8-4c07-904f-1b6799237ddf
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code site FR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ec278232-f98e-4f08-8bf3-fb92eb056490
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: G2R
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fced733a-bfc8-4eec-95e4-1ed6b011c0da
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code Projet Unique (ASI)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43265d4a-0f93-42cb-b97a-e1412b21a5e5
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Programme
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7a719461-0ae4-4955-943d-699d88b50c0b
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Programme client
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 706e3603-1d8e-4f0d-ac47-b29c9f1336b7
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Client
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44625899-c370-4952-bb71-5653590e6f19
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type de projet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9afa4efc-76ef-4556-9ac6-50716ddac251
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type EB
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c7ed549f-0eed-45e6-a7ac-0f4924b8fba5
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: class
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4a900c7e-cbf8-45d2-909b-0467356f392b
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: CDP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a145f075-d974-47c4-b50e-3254ec3ca549
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: MOE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 651e8474-2a2a-4945-b83a-fb7059aa1a2b
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: MOE contact
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 73590661-f86a-4d62-a513-0ec69c85c6ae
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Commentaire
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6292dc9-8b62-4644-8a75-0ae550c9ccda
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Zone de regroupement
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b12f435d-777f-40fc-b93c-6ff9bcf7872a
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type de gestion
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a0eb6b0f-ff36-4eb7-b3c8-0875484853ee
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Statut du projet (Actif-Inactif-Cloturé)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7b423878-d94e-4c86-83ac-6c6a6042038c
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Statut du projet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 899fedfd-bda4-4122-a701-44f5941dec6d
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: MAD out MNO/TT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 824cd526-1f62-43e5-b9a8-c3097aefd7fa
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: MAD out MSA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7ed33e7a-bff4-4564-94a4-c90714365aa2
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: MAD out SITES NEUFS
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9c0a1a7c-7013-4341-8e23-fe290187c0de
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Numero de facture
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 37a481a1-91a9-4121-904c-891c27f728eb
+          stepCounter: eef90c3c-2933-40d5-a280-66a9a790af9a
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date facture
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: REPORT_COMMANDES_CLIENT
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

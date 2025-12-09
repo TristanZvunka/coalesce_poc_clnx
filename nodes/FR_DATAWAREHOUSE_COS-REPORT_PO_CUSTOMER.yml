@@ -1,0 +1,415 @@
+fileVersion: 1
+id: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+name: REPORT_PO_CUSTOMER
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: FR_DATAWAREHOUSE_COS
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 74f02de0-a03a-44e0-a737-9f47fadcb165
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(64)
+        defaultValue: ""
+        description: ""
+        name: Parc
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 25d782c0-e670-4148-8467-44cc38644cfb
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Site
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 28accef4-b3b8-4a70-b0be-9247bcc85ec6
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Opération N°
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 75420bd9-1516-4fe3-a3d3-5a3e737eb829
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: N° de commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1992dc0f-a03d-410d-bd1e-1258d5186e08
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Client
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0f8df8c1-749a-4aec-a54a-0eacc2b5ec2e
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Etat
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee1d0552-8314-4b09-8d1f-416a2b4bad56
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Type commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 45eb920d-de7e-4152-a536-9923d6dc44a5
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date réception commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: edb3f01a-bba7-4343-95dc-b5f6f1b4820a
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: Montant commande HT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3a6f05cc-0084-414e-a249-52fc77bca5f6
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date facture
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 28be5966-7df5-4f0a-8363-5d4d4799017f
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(100)
+        defaultValue: ""
+        description: ""
+        name: Montant facturé HT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea3d6a90-bfb2-4e19-9fb7-1bdc25399b77
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Numéro de facture
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2403868-70a9-4d13-820e-c51707639a78
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Commentaire commande
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5a3cc739-1322-447f-ba21-443aa2cac3f3
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Commentaire facturation
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d5918bc-3e7c-4e5b-a124-0a98a7cba78e
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Montant commande (num)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0951c623-68a0-499a-a4e2-f4e701b0f517
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_MAJ_DATA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f2bcf110-dd67-4068-8b68-4a235db0818a
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: DT_BATCH_IMPORT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fdca7899-4741-4055-95b7-d53cfe971697
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Région
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d6ea32e6-ddce-4d7a-8e39-c3be8be0d5e6
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: VARCHAR(254)
+        defaultValue: ""
+        description: ""
+        name: Update for READ ONLY
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cdd77890-c22e-42dc-8856-006e0f1609a8
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: Right_DT_MAJ_DATA
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 53682979-42f5-4909-93a5-800cb92ee222
+          stepCounter: c4e4ff0e-e06a-400a-ac05-5023ab468b7b
+        config: {}
+        dataType: TIMESTAMP_NTZ(9)
+        defaultValue: ""
+        description: ""
+        name: Right_DT_BATCH_IMPORT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: REPORT_PO_CUSTOMER
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,681 @@
+fileVersion: 1
+id: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+name: FACTURATION_WS_MSA_BYTEL
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: FR_DATAWAREHOUSE_FACTURATION
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 02a231fa-0bbb-499d-bd66-5025cd74815b
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date_MAJ_data
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 87274023-ce43-40cc-a53c-149df32bd9ff
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code Projet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f05820b9-42b1-43e9-8003-9726094d3531
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Commentaires
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7eb0c0cd-4b7a-4f78-a60f-b247d4e7411e
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code Projet Histo (PRJ)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 622b528f-a46e-4031-8920-579be545a424
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Statut Projet
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 514b65c9-42d5-4a4f-a19d-cdf86e7357db
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Typologie site (Glénan/Belle-ile/Noiroutier)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7039285c-3718-46b7-ad66-0258a0279ae6
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code site CLNX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dd7c85fe-d1c6-418f-bb15-310826206c1a
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code site BYTEL (T)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d9baf2b-df0b-481c-8636-c55fadfe5f47
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Code site BYTEL (SI)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e796708-a534-4da5-af00-629ea46e75bd
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type d'EB Unitaire/Masse
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cbe93346-97be-4d98-a851-c6f45060c6bd
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Cas Simple/Complexe/Swap/Ran Sharing
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f4df78fc-3ee0-46c3-be32-41fc65138add
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Projet Bytel
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf297e1f-0baa-45de-9910-88908d32ee29
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Date Emission APD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c0f33170-abf7-4e68-a961-a694a03d021a
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Forfait FI (HT)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 252d1e15-266d-4947-bbe5-613110d5de81
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Date de valorisation CLNX
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c06a1edf-009f-4472-8c99-214ec7442beb
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Date Validation APD par client
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0ba533bf-c64b-47df-8cd0-ef1840edee0a
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Numéro de commande FI BYTEL
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3446882d-24f2-43e2-8159-c65c9c8fd9e5
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Type de MAD (Travaux/Immédiate)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee8db49a-3224-4108-ab9d-a942c26a64bb
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Date Validation PVMAD par client
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 58914129-9b01-462e-a722-16732924e5a3
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Montant Forfait MOE (HT)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 63ae462f-121d-47a2-be35-9705e5585ac0
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Alerte Montant MOE
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ad57aff-e055-4717-9f6c-96b92d7b331d
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Montant Total Devis yc MOE (HT)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8a56d3ac-2438-4cde-8d8a-941014657222
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Coût HT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 97e85c12-d02f-4e84-b7b4-da4fa2f65df2
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Date de valorisation CLNX2
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ff97098e-785d-48dc-9b27-71ed258228ef
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Date de MAD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d4002132-e311-4eb8-be75-7e85f17e5fe0
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: DATE
+        defaultValue: ""
+        description: ""
+        name: Délai Validation MAD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ee1ceb7d-faa9-46be-bc25-a866cdaf40fb
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Catégorie délai valid PV MAD
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4376739f-6cd5-420e-b0fd-bbf5d0de3717
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Min Date PVMAD Jointe (MOE)
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8067abd5-51ba-430f-bdaf-0173248f1475
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: "PV MAD Sans visite: Date d'envoi"
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: eac2994b-ea39-4199-80a2-88935efbfd72
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Début FR
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a5dddd9c-e6ce-4976-a994-f42d5a7e337b
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Région
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0353d26d-a94d-4d95-8c23-de02c2a72150
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: CdP
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 510b604c-6070-4e24-b9b4-59c7619ca3bc
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: délai travaux
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c3f8490b-9df5-4323-9bbb-4510bb597f15
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Franchise 7K€
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e06f12ba-dafb-4878-b2f9-39fe10a397b5
+          stepCounter: 8387eb4b-aff9-416c-a5e5-2b2be2d1c7f4
+        config: {}
+        dataType: VARCHAR(255)
+        defaultValue: ""
+        description: ""
+        name: Check Montant Total Devis vs Extraction montant devis
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: FACTURATION_WS_MSA_BYTEL
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
